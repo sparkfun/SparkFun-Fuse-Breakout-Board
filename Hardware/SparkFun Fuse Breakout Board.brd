@@ -172,7 +172,7 @@
 <dimension x1="22.352" y1="10.922" x2="22.352" y2="12.7" x3="-2.54" y3="11.811" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="64.897" y2="0" x3="32.4485" y3="-8.89" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="0" x2="22.225" y2="0" x3="11.1125" y3="-3.81" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<text x="20.955" y="-13.97" size="1.778" layer="20" font="vector" ratio="15">Dimensions are given in inches.</text>
+<text x="20.955" y="-13.97" size="1.778" layer="47" font="vector" ratio="15">Dimensions are given in inches.</text>
 <text x="54.737" y="3.175" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="54.737" y="8.128" size="1.778" layer="21" font="vector" ratio="15">-</text>
 <text x="56.007" y="3.175" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
@@ -3094,8 +3094,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U$2" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="10.287" rot="R270"/>
 <element name="U$1" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="9.144" rot="R270"/>
-<element name="U$3" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="10.287" rot="MR270"/>
-<element name="U$4" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="9.144" rot="MR270"/>
+<element name="U$3" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="2.667" rot="MR90"/>
+<element name="U$4" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="3.683" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
