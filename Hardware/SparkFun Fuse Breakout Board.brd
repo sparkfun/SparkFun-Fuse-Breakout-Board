@@ -175,11 +175,11 @@
 <text x="20.955" y="-13.97" size="1.778" layer="47" font="vector" ratio="15">Dimensions are given in inches.</text>
 <text x="54.737" y="3.175" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="54.737" y="8.128" size="1.778" layer="21" font="vector" ratio="15">-</text>
-<text x="56.007" y="3.175" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
-<text x="56.007" y="8.128" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
+<text x="59.436" y="3.048" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
+<text x="59.309" y="8.128" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 <text x="8.382" y="8.255" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="8.382" y="2.921" size="1.778" layer="21" font="vector" ratio="15">-</text>
-<text x="6.604" y="8.255" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
+<text x="6.604" y="8.128" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+</text>
 <text x="6.604" y="3.048" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 <circle x="22.352" y="0" radius="2.83980625" width="0.1524" layer="41"/>
 <circle x="22.352" y="12.7" radius="2.83980625" width="0.1524" layer="41"/>
@@ -3158,12 +3158,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J3" pad="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,d1b42980d3b62b82"/>
-<approved hash="19,1,0e8e27b95bcfb702"/>
-<approved hash="19,1,0b8873bc89a2f196"/>
-<approved hash="19,1,0e8e27cc02faee42"/>
-</errors>
 </board>
 </drawing>
 </eagle>
