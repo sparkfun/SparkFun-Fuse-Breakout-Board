@@ -1,9 +1,9 @@
 SparkFun Fuse Breakout Board
 ========================================
 
-[![SparkFun Fuse Breakout Board](URL for picture of part)](URL for product on Sparkfun.com)
+[![SparkFun Fuse Breakout Board](URL for picture of part)](https://www.sparkfun.com/products/15697)
 
-[*SparkFun Fuse Breakout Board (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Fuse Breakout Board (BOB-15697)*](https://www.sparkfun.com/products/15697)
 
 This is a breakout board for the glass ferrule type fuse. It fits great with our [5mm fuse clips](https://www.sparkfun.com/products/9773). Fuses are pretty simple, if current exceeds the rating of the fuse, the small filament inside the fuse heats up and breaks (like a light bulb burning out). The circuit is then broken and hopefully your circuit is saved from molten destruction.
 
