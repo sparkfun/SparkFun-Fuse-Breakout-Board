@@ -12,7 +12,7 @@ For smaller loads, you may want to checkout a PTC (aka resettable fuse). They ha
 Repository Contents
 -------------------
 
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/fuse-breakout-board-hookup-guide)** - Basic hookup guide
 
 License Information
 -------------------
