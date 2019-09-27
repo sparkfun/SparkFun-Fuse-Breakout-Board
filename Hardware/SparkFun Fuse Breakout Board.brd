@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2968,6 +2968,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3068,34 +3071,42 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </pass>
 </autorouter>
 <elements>
-<element name="F1" library="SparkFun" package="FUSE_5MM" value="FUSEX20MM" x="38.1" y="6.35" rot="R270"/>
-<element name="F2" library="SparkFun-Fuses" package="PTH" value="72V/0.25A" x="38.1" y="6.35">
+<element name="F1" library="SparkFun" package="FUSE_5MM" value="FUSEX20MM" x="38.1" y="6.35" smashed="yes" rot="R270"/>
+<element name="F2" library="SparkFun-Fuses" package="PTH" value="72V/0.25A" x="38.1" y="6.35" smashed="yes">
+<attribute name="NAME" x="38.1" y="8.128" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08490" x="38.1" y="6.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.1" y="4.572" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="12.065" y="-24.13">
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="12.065" y="-24.13" smashed="yes">
 <attribute name="DESIGNER" value="" x="12.065" y="-24.13" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="12.065" y="-24.13" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="36.068" y="0.762" rot="MR90"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="33.909" y="9.271"/>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="41.275" y="10.922"/>
-<element name="U$11" library="buzzard_labels (7)" package="SPARKFUN_FUSE_BREAKOUT0" value="" x="28.194" y="1.524"/>
-<element name="U$28" library="buzzard_labels (17)" package="F10" value="" x="26.67" y="10.414"/>
-<element name="U$29" library="buzzard_labels (16)" package="F20" value="" x="36.83" y="6.35"/>
-<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="3.937" y="6.223" rot="R270">
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="36.068" y="0.762" smashed="yes" rot="MR90"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="33.909" y="9.271" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="41.275" y="10.922" smashed="yes"/>
+<element name="U$11" library="buzzard_labels (7)" package="SPARKFUN_FUSE_BREAKOUT0" value="" x="28.194" y="1.524" smashed="yes"/>
+<element name="U$28" library="buzzard_labels (17)" package="F10" value="" x="26.67" y="10.414" smashed="yes"/>
+<element name="U$29" library="buzzard_labels (16)" package="F20" value="" x="36.83" y="6.35" smashed="yes"/>
+<element name="J2" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="3.937" y="6.223" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.096" y="7.7978" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="PROD_ID" value="CONN-08197" x="3.937" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SF_ID" value="PRT-00119" x="3.937" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.08" y="8.128" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="3.81" y="8.89" rot="R270">
+<element name="J1" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="3.81" y="8.89" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.35" y="10.16" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="SF_SKU" value="PRT-08432" x="3.81" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="5.08" y="10.16" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="60.96" y="3.81" rot="R90">
+<element name="J3" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="60.96" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.42" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="SF_SKU" value="PRT-08432" x="60.96" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="59.69" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="U$2" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="10.287" rot="R270"/>
-<element name="U$1" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="9.144" rot="R270"/>
-<element name="U$3" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="2.667" rot="MR90"/>
-<element name="U$4" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="3.683" rot="MR90"/>
+<element name="U$2" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="10.287" smashed="yes" rot="R270"/>
+<element name="U$1" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="9.144" smashed="yes" rot="R270"/>
+<element name="U$3" library="buzzard_labels (1)" package="VOUT0" value="" x="52.578" y="2.667" smashed="yes" rot="MR90"/>
+<element name="U$4" library="buzzard_labels (2)" package="VIN0" value="" x="22.479" y="3.683" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -3158,6 +3169,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J3" pad="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
