@@ -29,6 +29,7 @@ Repository Contents
 -------------------
 
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/fuse-breakout-board-hookup-guide)** - Basic hookup guide
+* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 
 Product Versions
 ----------------
